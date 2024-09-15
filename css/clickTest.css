@@ -1,0 +1,36 @@
+.big-button {
+    width: 80%;
+    height: 20vh;
+    background-color: #88ff88;
+    border: none;
+    font: 10em "Consolas";
+}
+.big-button:hover {
+    background-color: #66ee66;
+}
+.big-button:active {
+    background-color: #44dd44;
+}
+.big-button-container {
+    margin-top: 20px;
+}
+.big-button-full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.count-display {
+    position: absolute;
+    bottom: 20px;
+    font: 12em "Consolas";
+    margin: 0;
+}
+.count-display-container {
+    display: flex;
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
