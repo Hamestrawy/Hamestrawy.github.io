@@ -11,8 +11,13 @@
     <a href="index.html">Home</a> /
     Click Test
 </div>
-<div class="big-button-container text-center">
-    <button class="big-button" id="bigButton" onclick="startTest()">Click to test</button>
+<div class="text-center">
+    <div class="big-button-container">
+        <button class="big-button" id="bigButton" onclick="startTest()"></button>
+    </div>
+    <label>
+        <input type="number" oninput="checkSeconds()" id="seconds" value="1">
+    </label>
 </div>
 <ul id="countList"></ul>
 <div class="count-display-container">
